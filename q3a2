@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int t;
+    cin >> t;
+    int i=2;
+    while(i<t){
+        if(t%i==0){
+            cout<<"not prime"<<endl;
+        }
+        else{
+            cout<<"prime"<<endl;
+        }
+        i=i+1;
+    }
+
+}
